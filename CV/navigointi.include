@@ -1,0 +1,25 @@
+<div class="topnav" id="myTopnav">
+        <a href="/~emjoneva/CV/about/index.shtml" class="active">ABOUT ME</a>
+        <div class="dropdown">
+            <button class="dropbtn">PHOTOGRAPHY
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="/~emjoneva/CV/pictures/index.shtml">PICTURES</a>
+                <a href="/~emjoneva/CV/videos/index.shtml">VIDEOS</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">PROJECTS</button>
+            <div class="dropdown-content">
+                <a href="/~emjoneva/CV/graphic%20design/index.shtml">GRAPHIC DESIGN</a>
+                <a href="/~emjoneva/CV/programming/index.shtml">PROGRAMMING</a>
+            </div>
+        </div>
+		
+		<div>
+			<a href="/~emjoneva/CV/index.shtml">HOME</a>
+		</div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>

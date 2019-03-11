@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/tyylit.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>CV</title>
+</head>
+    
+<body>
+    <!--#include virtual="/~emjoneva/CV/navikuva.include"-->
+    
+    <!--#include virtual="/~emjoneva/CV/navigointi.include"-->
+
+    <div class="tekstiosa">
+        <h1>ABOUT ME</h1>
+    </div>
+
+    <div class="rivi">
+        <div class="pylvas">
+
+            
+            <p class="fi">
+                Tällä sivulla pääset lukemaan lisää minusta! Olen 21-vuotias ja opiskelen Jyväskylässä ensimmäistä vuotta tietotekniikkaa. Olen aktiivisesti ainejärjestöni toiminnassa mukana - olen toiminut Linkki Jyväskylä ry:n graafikkona lähes ensimmäisestä opiskelupäivästäni alkaen, ja minut on valittu ainejärjestöni hallitukseen koulutuspoliittisen vastaavan rooliin hallituskaudelle 2019. 
+            </p>
+
+            <p class="fi">
+                Opiskelin lukioni englanniksi International Baccalaureate-linjalla, ja toivon että pääsen myös tulevaisuudessa työskentelemään kansainvälisessä ympäristössä. Unelmani olisi päästä töihin pariksi vuodeksi ulkomaille, esimerkiksi suosikkimaahani Saksaan! Yliopistossa luen tietotekniikan lisäksi pitkänä sivuaineena psykologiaa. Sen lisäksi aion käydä markkinoinnin ja viestinnän kursseja. Olisi mahtavaa tulevaisuudessa luoda käyttöliittymiä, jotka ovat paitsi visuaalisesti kauniita, myös helppokäyttöisiä ja kaikkien käyttäjien tarpeet huomioon ottavia. 
+            </p>
+
+            <p class="fi">
+                Vapaa-ajallani teen järjestöhommien lisäksi myös paljon muuta. Rakastan valokuvaamista, ja tämän vuoden aikana olen erityisen innostunut videokuvaamisesta. Lisäksi piirrän (digitaalisesti ja perinteisesti), neulon, liikun ja soitan ukulelea. 
+            </p>
+        </div>
+        
+        <div class="pylvas">
+            <p class="en"> 
+                On this page you can learn more about me! I'm 21, I started studying Computer Science at Jyväskylän yliopisto in fall of 2018. I'm very active in my student organization, Linkki Jyväskylä ry. I started working as a graphic designer for Linkki almost immediately when I started studying here, and I've been elected as the representative of academic affairs in my student organization for 2019. 
+            </p>
+        
+            <p class="en">
+                I am an International Baccalaureate graduate, so I completed highschool in English. In the future, I wish to work in an international environment, as well. My dream job would include spending at least some time working abroad, hopefully in Germany, which is one of my favourite countries. My minor in university is psychology. I also hope to take some classes in marketing and communications. What kind of work would I love to do in the future? I hope that I could create visual interfaces to web pages and apps, that are stunning, easy-to-use and accessible for everyone.  
+            </p>
+        
+            <p class="en">
+                In my free time I do a lot in my student union. I also take photographs, and this year, I've been learning more about video making. I like to draw, both digitally and traditionally, I knit, do sports and play the ukulele. 
+            </p>
+        </div>
+    </div>
+    
+    
+<script>    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
+
+</body>
+</html>
