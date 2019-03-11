@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../../css/tyylit.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>CV</title>
+</head>
+    
+<body>
+    <!--#include virtual="/~emjoneva/CV/navikuva.include"-->
+    
+    <!--#include virtual="/~emjoneva/CV/navigointi.include"-->
+    
+    <div class="tekstiosa">
+        <h1>MY OWN WEBPAGE</h1>
+    </div>
+    
+        <div class="rivi">
+        <div class="pylvas1">
+            <img src="../nettisivut.png">
+        </div>
+        
+        <div class="pylvas2">
+           <p class="fi">
+            Aloitin tekemään nettisivujani marraskuun puolen välin tienoilla, tavoitteenani havainnollistaa osaamistani front-end -puolella. Olen tehnyt sivut kokonaan itse, mikä on ollut todella opettava kokemus. 
+        </p>
+        <p class="fi">
+            Uusia juttuja, joita opin tehdessäni omaa nettisivuani<br>
+            - SSI:n hyödyntäminen .include-tiedostojen avulla<br>
+            - Flexboxin asettelun kikkoja<br>
+            - Yksinkertaista Javascriptiä responsiivisen navigoinnin tekemiseen
+        </p>
+        <p class="fi">
+            Kun kiireet kouluhommista väistyvät joululoman alkaessa, aion perehtyä vielä enemmän front-end  -kehitykseen. Käyn tällä hetkellä Udemyssa Fullstack Web Dev -kurssia, jolla perehdytään sivun ulkoasun lisäksi siihen, mitä "taustalla" tapahtuu. Aion etenkin keskittyä oppimaan Javascriptiä ja parantamaan Python-taitojani.  
+        </p>
+        </div>
+             
+        <div class="pylvas2">
+           <p class="en">
+            I started creating my own webpage in November. I wanted to visualize my own skills in the world of front-end development. I've made my webpage from scratch, so I've learned a lot during the project. 
+        </p>
+        <p class="en">
+            New things that I've learned while making my own webpage<br>
+            - making use of SSI and .include-files<br>
+            - new tricks for formatting Flexbox<br>
+            - simple Javascript to create a responsive navigation bar
+        </p>
+        <p class="en">
+            When Christmas break starts, I'm gonna focus more on my side projects, front end development specifically. At the moment I'm taking a Fullstack Web Dev-course on Udemy to learn more about the back end part of web development as well. I'm going to immerse myself in the world of Javascript and Python, with which I'm already a little familiar. 
+        </p>
+        </div>
+    </div>
+    
+    <script>    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
+
+</body>
+</html>

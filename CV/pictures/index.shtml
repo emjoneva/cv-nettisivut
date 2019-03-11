@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/tyylit.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>CV</title>
+</head>
+    
+<body>
+    <!--#include virtual="/~emjoneva/CV/navikuva.include"-->
+    
+    <!--#include virtual="/~emjoneva/CV/navigointi.include"-->
+
+    
+    <div class="tekstiosa">
+        <h1>PICTURES</h1>
+        <p class="fi">
+            Täällä näet gallerian ottamistani kuvista. Olen harrastanut valokuvaamista aktiivisesti jo parin vuoden ajan, sitä aiemmin rennosti pokkarilla ja puhelimella kuvaten. Linkki Jyväskylä ry:n graafikkona työskennellessä käytän lähinnä Adobe Photoshopia, vapaa-ajalla editoin kuvani Adobe Lightroomissa.
+        </p>
+        
+        <p class="en">
+            Here you can see some of the pictures I have taken over the years. I have been doing photographing actively as a hobby for a couple of years now. Before that, I used to take pictures on a digital camera and my phone. When I'm editing pictures for Linkki Jyväskylä ry as their graphic designer, I use Adobe photoshop. For my own personal projects, I prefer Adobe Lightroom. 
+        </p>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <a href="kuvat/kuva1.jpg">
+                <img src="kuvat/kuva1pieni.jpg" alt="lokki Suomelahdella">
+            </a>
+            <a href="kuvat/kuva2.jpg">
+                <img src="kuvat/kuva2pieni.jpg" alt="Helsingin satama">
+            </a>
+            <a href="kuvat/kuva3.jpg">
+                <img src="kuvat/kuva3pieni.jpg" alt="lokki Suomenlinnassa">
+            </a>
+            <a href="kuvat/kuva4.jpg">
+                <img src="kuvat/kuva4pieni.jpg" alt="Suomenlinna">
+            </a>
+            <a href="kuvat/kuva5.jpg">
+                <img src="kuvat/kuva5pieni.jpg" alt="laavu">
+            </a>
+            <a href="kuvat/kuva21.jpg">
+                <img src="kuvat/kuva21pieni.jpg" alt="Karpathoksen kadut">
+            </a>
+        </div>
+        
+        <div class="column">
+            <a href="kuvat/kuva6.jpg">
+                <img src="kuvat/kuva6pieni.jpg" alt="puupolku">
+            </a>
+            <a href="kuvat/kuva7.jpg">
+                <img src="kuvat/kuva7pieni.jpg" alt="jääseinämä">
+            </a>
+            <a href="kuvat/kuva8.jpg">
+                <img src="kuvat/kuva8pieni.jpg" alt="talvinen metsä">
+            </a>
+            <a href="kuvat/kuva9.jpg">
+                <img src="kuvat/kuva9pieni.jpg" alt="virtaava koski">
+            </a>
+            <a href="kuvat/kuva10.jpg">
+                <img src="kuvat/kuva10pieni.jpg" alt="hevonen">
+            </a>
+            <a href="kuvat/kuva22.jpg">
+                <img src="kuvat/kuva22pieni.jpg" alt="Karpathos satama">
+            </a>
+        </div>
+        
+        <div class="column">
+            <a href="kuvat/kuva11.jpg">
+                <img src="kuvat/kuva11pieni.jpg" alt="jäätynyt Laukaan satama">
+            </a>
+            <a href="kuvat/kuva12.jpg">
+                <img src="kuvat/kuva12pieni.jpg" alt="Jyväskylän raiteet">
+            </a>
+            <a href="kuvat/kuva13.jpg">
+                <img src="kuvat/kuva13pieni.jpg" alt="syksyn kukkaloistoa">
+            </a>
+            <a href="kuvat/kuva14.jpg">
+                <img src="kuvat/kuva14pieni.jpg" alt="sorsat järvellä">
+            </a>
+            <a href="kuvat/kuva15.jpg">
+                <img src="kuvat/kuva15pieni.jpg" alt="porot tiellä">
+            </a>
+            <a href="kuvat/kuva23.jpg">
+                <img src="kuvat/kuva23pieni.jpg" alt="Karpathoksen rakennuksia">
+            </a>
+                
+        </div>
+        
+        <div class="column">
+            <a href="kuvat/kuva16.jpg">
+                <img src="kuvat/kuva16pieni.jpg" alt="Norja">
+            </a>
+            <a href="kuvat/kuva17.jpg">
+                <img src="kuvat/kuva17pieni.jpg" alt="Karpathoksen rannat">
+            </a>
+            <a href="kuvat/kuva18.jpg">
+                <img src="kuvat/kuva18pieni.jpg" alt="Karpathoksen vuoret">
+            </a>
+            <a href="kuvat/kuva19.jpg">
+                <img src="kuvat/kuva19pieni.jpg" alt="Olympoksen kylä">
+            </a>
+            <a href="kuvat/kuva20.jpg">
+                <img src="kuvat/kuva20pieni.jpg" alt="Karpathoksen rannat">
+            </a>
+            <a href="kuvat/kuva24.jpg">
+                <img src="kuvat/kuva24pieni.jpg" alt="Karpathos kissa">
+            </a>
+        </div>
+    </div>
+    <script>    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
+
+</body>
+</html>

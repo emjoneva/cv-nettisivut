@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../../css/tyylit.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>CV</title>
+</head>
+    
+<body>
+    <!--#include virtual="/~emjoneva/CV/navikuva.include"-->
+    
+    <!--#include virtual="/~emjoneva/CV/navigointi.include"-->
+    
+    <div class="tekstiosa">
+        <h1>PATCH DESIGN</h1>
+    </div>
+    
+        <div class="rivi">
+        <div class="pylvas1">
+            <img src="../jallutahti.png">
+        </div>
+        
+        <div class="pylvas2">
+           <p class="fi">
+            Aloittaessani työni graafikkona Linkki Jyväskylä ry:ssä minua pyydettiin heti suunnittelemaan lisää haalarimerkkejä ainejärjestöllemme. Merkit, joita myimme, olivat jo vanhentuneita, eikä niitä oltu myyty ainejärjestömme ulkopuolelle pitkään aikaan.
+        </p>
+        <p class="fi">
+            Suunnittelin kasan haalarimerkkejä, joista lähetettiin painatettavaksi kaksi designiä, "Jallutähden alla" sekä "Señor Developer". Keväällä merkkimarkkinoiden jälkeen aiotaan tilaukseen laittaa uudet, suunnittelemani merkit. 
+        </p>
+        <p class="fi">
+            Haalarimerkkien suunnittelu on parasta pestissäni. Olen todella luova ja koen olevani huumorintajuinen ihminen. Nämä kaksi ominaisuutta ovat välttämättömiä haalarimerkkejä suunnitellessa. Suunnitteluprosessissa käytin tabletillani ProCreate-sovellusta sekä tietokoneella Photoshopia. 
+        </p>
+        </div>
+             
+        <div class="pylvas2">
+           <p class="en">
+            When I started as a graphic designer for Linkki Jyväskylä ry, I was immediately asked to design new student overall patches for our student union.  
+        </p>
+        <p class="en">
+            I created a bunch of patches, of which two were chosen to be printed and sold. The two designs that were chosen were "Jallutähden alla" (depicted on the left) and "Señor Developer". 
+        </p>
+        <p class="en">
+            Designing patches is my favourite part of my job as a graphic designer. I'm really creative and have a good sense of humour. I think these two qualities are essential if one is to desing patches for students. In the design process, I used two tools: ProCreate to draw the designs, and Photoshop to finish them. 
+        </p>
+        </div>
+    </div>
+    
+    <script>    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
+
+</body>
+</html>

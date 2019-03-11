@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/tyylit.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>CV</title>
+</head>
+    
+<body>
+    <!--#include virtual="/~emjoneva/CV/navikuva.include"-->
+    
+    <!--#include virtual="/~emjoneva/CV/navietusivu.include"-->
+    
+    <div class="tekstiosa">
+        <h1>VISUAL CV EMMA NEVALA   </h1>
+        <p class="fi">
+            Hei! Minun nimeni on Emma Nevala. Tervetuloa visuaalisen CV:ni sivuille. Täällä voit lukea lisää minusta, selata tekemiäni projekteja ja nähdä kuvaamiani juttuja. Jos kiinnostuksesi heräsi ja haluat tietää minusta lisää, ota yhteyttä emjoneva(at)student.jyu.fi!
+        </p>
+        
+        <p class="en">
+            Hi! My name is Emma Nevala. Welcome to my visual CV website. Here you can read more about who I am, browse through my projects and check out photographs I have taken. If you want to know more about me, or get in touch, send an email to emjoneva(at)student.jyu.fi!
+        </p>
+        
+        <img src="kuva.png">
+    </div>
+    <script>    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/tyylit.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <title>CV</title>
+</head>
+    
+<body>
+    <!--#include virtual="/~emjoneva/CV/navikuva.include"-->
+    
+    <!--#include virtual="/~emjoneva/CV/navigointi.include"-->
+    
+    <div class="tekstiosa">
+        <h1>GRAPHIC DESIGN</h1>
+        <p class="fi">
+            Olen työskennellyt Linkki Jyväskylä ry:n toimihenkilönä graafikon roolissa syyskuu 2018 asti. Rakastan pestiäni - pääsen toteuttamaan luovuuttani monella eri tavalla. Teen ainejärjestöllemme esimerkiksi tapahtumakuvat sosiaalisen median markkinointiin sekä haalarimerkit. Olen myös graafisena vastaavana vuosijuhlatiimissä. 
+        </p>
+        <p class="fi">
+            Alas olen linkannut projekteja, joiden parissa olen työskennellyt, ja joista olen erityisesti pitänyt. Klikkaamalla kuvaa pääset sivulle, jossa kerron projektista enemmän.
+        </p>
+        
+        <p class="en">
+            I've been working as a graphic designer for Linkki Jyväskylä ry since this September. I love my job - I get to channel my inner creativity and create designs that bring joy for our student union. My job entails creating event banners for social media platforms, and also designing patches for student overalls. I'm also chief graphic designer in our student union's Anniversary Celebrations team. 
+        </p>
+        <p class ="en">
+            I've linked some of my favourite projects below this paragraph. You can read more about the project by clicking it's picture.
+        </p>
+    </div>
+    
+  <div class="row">
+        <div class="column">
+            <a href="piirrokset/">
+                <img src="piirrokset.png" alt="piirros">
+            </a>
+            <a href="jallutahti/">
+                <img src="jallutahti.png" alt="Haalarimerkki">
+            </a>
+            <a href="linkkigoestampere/">
+                <img src="linkkigoestampere.png" alt="Linkki goes Tampere">
+            </a>
+            <a href="nettisivut/">
+                <img src="nettisivut.png" alt="omat nettisivut">
+            </a>
+        </div>
+    </div>
+      
+    <script>    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
+
+</body>
+</html>
